@@ -31,3 +31,5 @@ function EmployeeList() {
         console.table(results)
     })
 }
+
+module.exports = { departmentList, RoleList, EmployeeList }
