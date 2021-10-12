@@ -1,0 +1,25 @@
+{
+  "name": "employee_tracker",
+  "version": "1.0.0",
+  "description": "- What was your motivation? I wanted to make this project to increase my skills in node.js. \r - Why did you build this project? I built this project to support a company that wants to have a nice presentation for its employees and their job titles. \r - What problem does it solve? This project solves the issue for large companies to a nice presentation of their employees and their emails and github accounts. \r - What did you learn? Doing this project I learned alot about how to test my projects. Secondly I also learned how to use constructors and continue to re-use those data in different parts of the project. \r ## Table of Contents\r - [Installation](#installation)\r - [Usage](#usage)\r - [Credits](#credits)\r - [License](#license)\r ## Installation\r What are the steps required to install your project? node.js is required to run this project. As well as jest. from the command line your can input npm install and it will install all the required dependencies. You can watch the attached video on how the project works.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/addonelson/employee_tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/addonelson/employee_tracker/issues"
+  },
+  "homepage": "https://github.com/addonelson/employee_tracker#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "dotenv": "^10.0.0",
+    "mysql2": "^2.3.0"
+  }
+}
