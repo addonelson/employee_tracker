@@ -1,22 +1,21 @@
 # employee_tracker
 
 ## Description
-- What was your motivation? I wanted to make this project to increase my skills in node.js. 
-- Why did you build this project? I built this project to support a company that wants to have a nice presentation for its employees and their job titles. 
-- What problem does it solve? This project solves the issue for large companies to a nice presentation of their employees and their emails and github accounts. 
-- What did you learn? Doing this project I learned alot about how to test my projects. Secondly I also learned how to use constructors and continue to re-use those data in different parts of the project. 
+- What was your motivation? I created this project to support a large organization with its employee structure.
+- Why did you build this project? To support a large organization 
+- What problem does it solve? With this project a company can easily see its employees, roles, and departments. 
+- What did you learn? Doing this project I was able to learn just how difficult and particular SQL is to work with. 
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
 ## Installation
-What are the steps required to install your project? node.js is required to run this project. As well as jest. from the command line your can input npm install and it will install all the required dependencies. You can watch the attached video on how the project works.
+What are the steps required to install your project? node.js is required to run this project. open your terminal and npm i to install dependancies.
 
 ## Usage ![alt text]()
 
-## Credits
-For this project I leaned heavily on my tutor. I was able to get the majority of my code completed and he seriously helped me out with structure and pulling the data from my arrays.
+
 ## License
 - MIT License
 
