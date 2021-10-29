@@ -9,29 +9,30 @@ const intialQuestion = [{
 }];
 
 
-console.log("Welcome to employee manager");
 
 function init() {
+    console.log("Welcome to employee manager");
     inquirer
         .prompt(intialQuestion)
-        .then((response) => {
+        .then(async (response) => {
             if (response.new === "View all employees") {
-                queries.employeeList();
+                 await queries.employeeList();
             } else if (response.new === "Add Employee") {
-                queries.addEmployee();
+                await queries.addEmployee();
             } else if (response.new === "Update Employee Role") {
-                queries.updateRole();
+                await queries.updateRole();
             } else if (response.new === "View All Roles") {
-                queries.rolesList();
+                await queries.rolesList();
             } else if (response.new === "Add Role") {
-                queries.addRole();
+                await queries.addRole();
             } else if (response.new === "View All Departments") {
-                queries.departmentList();
+                await queries.departmentList();
             } else if (response.new === "Add Department") {
-                queries.addDepartment();
+                await queries.addDepartment();
             } else {
-                queries.quit();
+                await queries.quit();
             }
+            init();
         })
 }
 init();
