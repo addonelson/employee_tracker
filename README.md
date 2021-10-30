@@ -5,6 +5,8 @@
 - Why did you build this project? To support a large organization 
 - What problem does it solve? With this project a company can easily see its employees, roles, and departments. 
 - What did you learn? Doing this project I was able to learn just how difficult and particular SQL is to work with. 
+
+https://drive.google.com/file/d/1TVyllVq_jrRwR-XcD-yAj65pdsvJODKU/view
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
@@ -13,7 +15,7 @@
 ## Installation
 What are the steps required to install your project? node.js is required to run this project. open your terminal and npm i to install dependancies.
 
-## Usage ![alt text]()
+## Usage ![alt text](images/employee_tracker.PNG)
 
 
 ## License
